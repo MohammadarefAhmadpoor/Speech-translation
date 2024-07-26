@@ -14,8 +14,8 @@ This project provides speech recognition, language detection, translation, and s
 To run code.py, you need to install the following Python libraries:
 
 - `os`
-- `pyaudio`
 - `gtts`
+- `pyaudio`
 - `speech_recognition`
 - `transformers`
 
