@@ -22,7 +22,7 @@ To run code.py, you need to install the following Python libraries:
 You can install the required libraries using pip:
 
 ```python
-!pip install os gtts speechrecognition transformers pyaudio
+!pip install os gtts pyaudio speechrecognition transformers
 ```
 
 ## Code Overview
