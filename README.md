@@ -1,4 +1,4 @@
-# Speech Translation
+# Speech Translation and Synthesis
 
 This project provides speech recognition, language detection, translation, and speech synthesis. It uses various libraries and models to convert spoken language into text, detect the language, translate it into another language, and finally convert the translated text back into speech.
 
