@@ -1,6 +1,6 @@
 # Speech Translation
 
-This project provides a speech recognition, language detection, translation, and speech synthesis. It uses various libraries and models to convert spoken language into text, detect the language, translate it into another language, and finally convert the translated text back into speech.
+This project provides speech recognition, language detection, translation, and speech synthesis. It uses various libraries and models to convert spoken language into text, detect the language, translate it into another language, and finally convert the translated text back into speech.
 
 ## Features
 
@@ -21,7 +21,7 @@ To run code.py, you need to install the following Python libraries:
 
 You can install the required libraries using pip:
 
-```bash
+```python
 pip install os gtts speechrecognition transformers
 ```
 
