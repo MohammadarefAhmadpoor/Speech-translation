@@ -7,6 +7,11 @@ This project provides speech recognition, language detection, translation, and s
 - **Speech Recognition**: Converts spoken language into text using Google's speech recognition API.
 - **Language Detection**: Automatically detects whether the input language is English or Persian.
 - **Translation**: Translates the recognized text between English and Persian using [Facebook's mBART model](https://huggingface.co/facebook/mbart-large-50-many-to-many-mmt).
+```python
+model_name = 'facebook/mbart-large-50-many-to-many-mmt'
+tokenizer = AutoTokenizer.from_pretrained(model_name) # or MBart50TokenizerFast.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
+model = AutoModelForCausalLM.from_pretrained(model_name)
+```
 - **Speech Synthesis**: Converts the translated text back into speech using Google's Text-to-Speech API.
 
 ## Requirements
